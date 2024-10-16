@@ -1,0 +1,14 @@
+{
+  "xsappname": "cpa-rag-usecase",
+  "tenant-mode": "dedicated",
+  "description": "Security profile of called application",
+  "scopes": [],
+  "attributes": [],
+  "role-templates": [],
+  "oauth2-configuration": {
+        "token-validity": 3600,
+        "redirect-uris": [
+            "http*://*.cfapps.*.hana.ondemand.com/**"
+        ]
+    }
+}

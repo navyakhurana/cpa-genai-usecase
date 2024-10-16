@@ -1,0 +1,19 @@
+{
+  "welcomeFile": "cpaui/index.html",
+  "routes": [
+  {
+    "source": "^/odata/(.*)$",
+    "target": "/odata/$1",
+    "destination": "cpa-rag-usecase-srv",
+    "authenticationType": "xsuaa",
+    "csrfProtection": false,
+    "cacheControl": "no-cache, no-store, must-revalidate"
+  },
+    {
+      "source": "^(.*)$",
+      "target": "$1",
+      "service": "html5-apps-repo-rt",
+      "authenticationType": "xsuaa"
+    }
+  ]
+}
