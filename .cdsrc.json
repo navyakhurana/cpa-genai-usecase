@@ -1,0 +1,27 @@
+{
+  "cdsc": {
+      "beta": {
+          "vectorType": true
+      }
+  },
+  "requires":{
+      "GENERATIVE_AI_HUB": {
+          "CHAT_MODEL_DESTINATION_NAME": "AICoreAzureOpenAIDestination",
+          "CHAT_MODEL_DEPLOYMENT_URL": "",
+          "CHAT_MODEL_RESOURCE_GROUP": "",
+          "CHAT_MODEL_API_VERSION": "",
+          "EMBEDDING_MODEL_DESTINATION_NAME": "AICoreAzureOpenAIDestination",
+          "EMBEDDING_MODEL_DEPLOYMENT_URL": "",
+          "EMBEDDING_MODEL_RESOURCE_GROUP": "",
+          "EMBEDDING_MODEL_API_VERSION": ""
+      },
+      "AICoreAzureOpenAIDestination": {
+          "kind": "rest",
+          "credentials": {
+            "destination": "openai-aicore-api",
+            "requestTimeout": "300000"
+          }
+      }
+  }
+
+}
