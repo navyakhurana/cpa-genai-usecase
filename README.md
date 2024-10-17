@@ -8,6 +8,8 @@ This sample CAP application uses the CAP LLM Plugin to simplify the process of a
 -   Navigate to your subaccount and make sure all roles are assigned for your user as shown below:
 ![assignroles](images/assignroles.png)
 
+### Follow the Hands-on Pre-requisites here: [Hands-On Prerequisites](docs/readme.md)
+
 ## Clone Repo
 
 -   Navigate to Instances and Subscriptions and Open Business Application Studio
