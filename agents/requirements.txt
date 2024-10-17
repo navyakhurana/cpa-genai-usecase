@@ -4,7 +4,7 @@ requests
 langchain
 chromadb
 flask-cors
-generative-ai-hub-sdk
+generative-ai-hub-sdk[all]
 hdbcli
 langchain_experimental
 pandas
