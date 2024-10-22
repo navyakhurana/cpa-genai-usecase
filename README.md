@@ -29,7 +29,7 @@ This sample CAP application uses the CAP LLM Plugin to simplify the process of a
 -   Click on Git Clone Repo 
     ![clone_git1](images/clone_git1.png)
     and Provide followin url:
-    `https://github.com/AjitKP91/cpa-rag-usecase.git`    
+    `https://github.com/navyakhurana/cpa-genai-usecase.git`    
     
     Click open when you see following pop-up.
     ![clone_git2](images/clone_git2.png)
