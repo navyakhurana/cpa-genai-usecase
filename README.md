@@ -38,11 +38,9 @@ This sample CAP application uses the CAP LLM Plugin to simplify the process of a
     ![cdsrc](images/cdsrc.png)
 
 ## Import Destination
--   save 'gen-ai-hub' file to your local computer. (Right click on 'gen-ai-hub' file and click Download)
-    ![dowload1](images/dowload1.png)
 -   Go to BTP cockpit and trial subaccount. Then navigate to Destination under connectivity menu item. Click on import destination.
     ![import_dest1](images/import_dest1.png)
--   Select the 'gen-ai-hub' file saved in previous step
+-   Select the 'gen-ai-hub' file shared in the email
     ![import_dest2](images/import_dest2.png)
 -   Save the destination
     ![import_dest3](images/import_dest3.png)
